@@ -1,0 +1,5 @@
+# pack-refs with: peeled
+be3dc7f802525620afd019996891ab0c8c369ff4 refs/heads/locks
+9f3b3d15fc102d2401a63b3d2f8ee90341062099 refs/heads/master
+ef95c79d651494138d49fa972aa86ffb22bffbe4 refs/heads/servers
+02a89218d04afbc1201792acc106bc6c98ddac00 refs/heads/wbadmin-uf-user

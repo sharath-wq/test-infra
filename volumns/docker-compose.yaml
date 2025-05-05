@@ -1,0 +1,21 @@
+# docker compose up -d mongodb jbpm
+version: '3.9'
+services:
+  mongodb:
+    container_name: mongodb_container
+    image: mongo:latest
+    restart: always
+    ports:
+      - '27017:27017' 
+    volumes:
+      - ./docker-volumes/mongodb:/data/db
+
+  jbpm:
+    container_name: jbpm_container
+    image: jboss/jbpm-server-full:latest
+    restart: always
+    ports:
+      - '8080:8080'
+      - '8081:8081'
+    volumes:
+      - ./docker-volumes/jbpm:/opt/jboss/wildfly/bin/.niogit
