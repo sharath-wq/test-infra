@@ -1,0 +1,5 @@
+{"level":"info","message":"✅ Connected to MongoDB: test","timestamp":"2025-05-05T11:05:50.277Z"}
+{"level":"info","message":"✅ Connected to MongoDB: test","timestamp":"2025-05-05T11:06:11.247Z"}
+{"level":"info","message":"SIGINT signal received: closing Redis client...","timestamp":"2025-05-05T11:06:13.259Z"}
+{"level":"info","message":"✅ Connected to MongoDB: test","timestamp":"2025-05-05T11:06:37.598Z"}
+{"level":"info","message":"SIGINT signal received: closing Redis client...","timestamp":"2025-05-05T11:11:33.134Z"}
